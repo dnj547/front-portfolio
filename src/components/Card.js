@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PieChartWithCustomization from './Chart';
 
-// const API_CARDS = 'http://localhost:3000/api/v1/cards';
-const API_VOTES = 'http://localhost:3000/api/v1/votes';
-const API_RESPONSES = 'http://localhost:3000/api/v1/responses';
+// const API_CARDS = 'https://backend-daniellejasper.herokuapp.com//api/v1/cards';
+const API_VOTES = 'https://backend-daniellejasper.herokuapp.com/api/v1/votes';
+const API_RESPONSES = 'https://backend-daniellejasper.herokuapp.com/api/v1/responses';
 
 class Card extends Component {
 
