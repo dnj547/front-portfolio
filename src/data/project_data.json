@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Triviaddiction",
+    "github": "https://github.com/dnj547/triviaddiction",
+    "planning": "https://www.taskade.com/v/MHcaFPFs8dL637rR",
+    "video": "https://s3.us-east-2.amazonaws.com/video.9/Triviaddiction.mp4",
+    "date-created": "June 2019 (Mod 4)",
+    "tech-used": "Ruby on Rails & React",
+    "description": "Trivia game where you can choose a category and time limit and see high scores of all users",
+    "partner": "Edgar Ong",
+    "partnerGitHub": "https://github.com/eddgr"
+  },
+  {
+    "id": 2,
+    "name": "Ott Libs",
+    "github": "https://github.com/dnj547/ott-libs",
+    "planning": "https://docs.google.com/document/d/1ZgnqnO5Hrzli0jghZnF7tkfjkwE8SipWS_ufEYsm5zA/edit?usp=sharing",
+    "video": "https://s3.us-east-2.amazonaws.com/video.9/Ott+Libs.mp4",
+    "date-created": "May 2019 (Mod 3)",
+    "tech-used": "Ruby on Rails & JavaScript",
+    "description": "Mad Libs game about otters escaping from the zoo to live at Flatiron School",
+    "partner": "Ferris Boran",
+    "partnerGitHub": "https://github.com/ferryrules"
+  },
+  {
+    "id": 3,
+    "name": "Afterthoughts",
+    "github": "https://github.com/dnj547/afterthoughts",
+    "planning": "https://docs.google.com/document/d/1OB9Lb4bxv6wFe5fhZtTofndJwxqRfbkEFQJwKX7Oppk/edit?usp=sharing",
+    "video": "https://s3.us-east-2.amazonaws.com/video.9/Afterthoughts.mp4",
+    "date-created": "May 2019 (Mod 2)",
+    "tech-used": "Ruby on Rails",
+    "description": "Calendar app that allows you to add afterthoughts to events you have created",
+    "partner": "Dan Fyfe",
+    "partnerGitHub": "https://github.com/danfyfe"
+  },
+  {
+    "id": 4,
+    "name": "City Guru",
+    "github": "https://github.com/dnj547/city-guru-project",
+    "planning": "https://docs.google.com/document/d/19d9tKtncuMeeq_Ffd_iycriPduB45gEVPSlWTXikfoc/edit?usp=sharing",
+    "video": "https://s3.us-east-2.amazonaws.com/video.9/City_Guru.mp4",
+    "date-created": "April 2019 (Mod 1)",
+    "tech-used": "Ruby, Teleport API",
+    "description": "Command Line Interface application that uses the Teleport API to obtain salary data and quality of life data about any major city in the world",
+    "partner": "Soyeong Oh",
+    "partnerGitHub": "https://github.com/axionos"
+  }
+]
