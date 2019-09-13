@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Card from './Card';
 
-
-
 class Level extends Component {
 
   state = {
@@ -64,8 +62,6 @@ class Level extends Component {
   }
 
   render() {
-    console.log('');
-    console.log(this.props.level.name, this.state, 'props', this.props);
     return (
       <div className="level-container">
         {!!this.props.montage ? (
@@ -75,7 +71,7 @@ class Level extends Component {
           </div>
         ) : (
           <div className="card-and-button-div-container">
-            <p className="level-name">{this.props.level.name}</p>
+            <h1 className="level-name">{this.props.level.name}</h1>
             {this.showACardComponent()}
           </div>
         )}

@@ -9,6 +9,21 @@ class LifeContainer extends Component {
     montage: false
   }
 
+  startOver = () => {
+    this.setState({
+      level: 0,
+      montage: false
+    })
+  }
+
+  startOverButton = () => {
+    if (!this.state.montage) {
+      if (this.state.level > 0) {
+        return <button className="play-game-button" onClick={this.startOver}>Start Over</button>
+      }
+    }
+  }
+
   levelComponents = () => {
     if (!this.state.montage) {
       if (this.state.level > 0) {
@@ -47,16 +62,15 @@ class LifeContainer extends Component {
       if (this.state.level === 0) {
         return (
           <div className="initial-life-page">
+            <div className="name">
+              <h1>Danielle Jasper: The Game</h1>
+            </div>
             <div className="initial-life-page-card">
               <img
                 alt="me"
                 src="images/me.jpg"
                 />
-            </div>
-            <div className="initial-life-page-text">
-              <h1>Play the game of my life!</h1>
               <button className="play-game-button" onClick={this.nextLevel}>Play</button>
-              <div onClick={this.montage}>...</div>
             </div>
           </div>
         )
@@ -78,6 +92,7 @@ class LifeContainer extends Component {
           <div>
             <div className="life-container">
               {this.showInitialPage()}
+              {this.startOverButton()}
               {this.levelComponents()}
             </div>
             <div onClick={this.finishIt}>...</div>

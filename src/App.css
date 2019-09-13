@@ -4,7 +4,7 @@
 body {
   background-color: #F6FFFA;
 }
-.my-name {
+/* .my-name {
   flex-grow: 7;
   text-align: right;
   font-family: CuisineOT-Pro;
@@ -65,8 +65,7 @@ body {
   height: 800px;
   margin: auto;
   display: flex;
-}
-
+} */
 
 
 
@@ -75,32 +74,32 @@ body {
   background-color: #C3EDD7;
   border-radius: 10px;
   width: 90%;
-  height: 800px;
+  height: auto;
   margin: auto;
-  display: flex;
 }
 .initial-life-page {
   display: flex;
+  flex-direction: column;
   width: 100%;
 }
 .initial-life-page-card {
+  width: 350px;
+  height: auto;
   border-radius: 10px;
   background-color: #FFC5D1;
-  margin-left: 120px;
-  margin-top: 100px;
-  width: 400px;
-  height: 550px;
+  margin: auto;
+  padding-top: 15px;
   display: flex;
   flex-direction: column;
 }
 .initial-life-page-card img {
   width: 90%;
   height: auto;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  flex: 1;
+  margin: auto;
+}
+.name {
+  color: #FF738E;
+  font-size: 13px;
 }
 .play-game-button {
   flex: 1;
@@ -119,12 +118,10 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
-.initial-life-page-text {
+/* .initial-life-page-text {
   flex: 1;
   align-self: center;
-  margin-left: 20px;
   text-align: center;
-  margin-top: -100px;
 }
 .initial-life-page-text h1 {
   color: #FF738E;
@@ -135,8 +132,7 @@ body {
   color: #FF738E;
   opacity: .5;
   font-size: 30px;
-  margin-top: -40px;
-}
+} */
 
 
 
@@ -148,14 +144,11 @@ body {
   flex: 1;
   margin-top: 65px;
 }
-.card-and-button-div {
-
-}
 .card {
   border-radius: 10px;
   background-color: #FFC5D1;
   width: 350px;
-  height: 650px;
+  height: 495.25px;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -190,7 +183,7 @@ body {
 .card-text-container p {
   flex: 1;
   color: #FF738E;
-  font-size: 38px;
+  font-size: 20px;
   font-weight: bold;
   width: 90%;
 }
