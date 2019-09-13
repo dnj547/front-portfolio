@@ -158,7 +158,6 @@ class Card extends Component {
 
 
   render() {
-    console.log('Card props', this.props);
     return (
       <div className="card-container">
         {this.showCard()}
